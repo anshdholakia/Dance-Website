@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+h1{
+    text-align: center;
+    font-family: 'Leckerli One';
+    margin:20px auto;
+    
+}
+
+.container{
+
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+}
+
+.myInput{
+    display:block;
+    width:50%;
+    margin: 11px;
+    padding: 11px;
+    font-size:15px;
+    background-color: powderblue;
+    font-family: 'Montblanc';
+    border:2.5px solid rosybrown;
+    border-radius: 7px;
+    outline:none;
+    
+}
+.myInput::placeholder{
+    font-family: 'Montblanc';
+    color:rgb(194, 112, 125);
+}
+
+.myForm{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn{
+    padding:11px 25px;
+    background-color: rosybrown;
+    border: 3.7px solid rgb(92, 66, 66);
+    border-radius: 9px;
+    font-size: 17px;
+    outline: none;
+
+
+}
+footer{
+    position: relative;
+    margin-top: 14px;
+    bottom:0px;
+    width: 100%;
+}

@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    margin:0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+
+
+#logo{
+    display:flex;
+    color:black;
+    position:relative;
+    top:0px;
+    left:-81px;
+    height:28px;
+    justify-content: center;
+    align-items: center;
+    margin:0px 0px;
+}
+#logo img{
+    height:68px;
+    width:36px;
+
+
+}
+
+#navbar{
+    font-family: 'Abel', sans-serif;
+    font-weight: bolder;
+    font-size: 1.4rem;
+    background-color: rgb(231, 153, 179);
+    height:80px;
+    /* border-bottom-left-radius: 50% 70%; */
+    padding:27px 4px;
+    border-bottom-right-radius: 50% 70%;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    padding:0px 30px;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+#navbar li a:hover{
+    animation-name:clobg;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+@keyframes clobg{
+    0%{
+        color:black;
+
+    }
+    10%{
+        color:rgb(63, 47, 59);
+
+
+    }
+    20%{
+        color:rgb(102, 5, 102);
+
+    }
+    30%{
+        color:rgb(63, 47, 59);
+
+    }
+    40%{
+        color:black;
+
+
+    }
+    50%{
+        color:rgb(124, 69, 110);
+        
+    }
+    60%{
+        color:black;
+
+
+    }
+    70%{
+        color:rgb(63, 47, 59);
+
+
+    }
+    80%{
+        color:rgb(102, 5, 102);
+
+
+    }
+    90%{
+        color:rgb(63, 47, 59);
+
+       
+    }
+    100%{
+        color:black;
+
+    }
+}
+
+#introSection{
+    font-family: 'Leckerli One', cursive;
+    font-size:1.7rem;
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    color:rgb(255,226,249);
+    height:300px;
+
+}
+#small{
+    font-size: 1.3rem;
+}
+
+#introSection::before{
+    content:"";
+    z-index:-1;
+    height: 100%;
+    width: 100%;       
+    position: absolute;
+    top:-168px;
+    background: center / cover no-repeat url("../static/bgphoto.jpg");
+    opacity: 1;
+    
+}
+
+
+#missionSection{
+    height:318px;
+    background-color: rgb(192, 97, 129);
+    
+    
+}
+
+#missionSection h2{
+    font-family: 'Leckerli One', cursive;
+    text-align: center;
+    margin:auto;
+    padding-top:23px;
+
+
+}
+
+.card{
+    font-family: 'Permanent Marker', cursive;
+    background-color: #be83a7c9;
+    display:inline-block;
+    border:2px solid black;
+    border-radius: 8px;
+    width:30%;
+    margin:33px 21px;
+    height:200px;
+}
+
+.card h3{
+    text-align: center;
+    margin-top:12px;
+    margin-bottom:6px;
+}
+
+.card-box{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+
+}
+
+
+.card-content p{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 16px;
+}
+
+.card-img{
+    align-items: center;
+    height:132px;
+    padding: 0px 16px;
+}
+
+.card-img img{
+    height:inherit;
+    border-radius: 7px;
+}
+
+#sponsorSection{
+    height:300px;
+    background-color: rgb(185, 77, 113);
+    
+    
+}
+#sponsors{
+    height: 120px;
+    max-width: 1000px;
+    margin:auto;
+    
+
+}
+
+.spImage{
+    height:136%;
+    margin:20px;
+}
+
+#sponsorSection h2{
+    font-family: 'Leckerli One', cursive;
+    text-align: center;
+    padding-top:23px;
+    
+    
+}
+
+#footer{
+    display:flex;
+    height:38px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 189, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+
+}

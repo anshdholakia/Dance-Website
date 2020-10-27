@@ -1,0 +1,68 @@
+//- index.pug
+doctype html
+html
+  head
+  title
+    | Oslo Ballet Academy
+  style
+    include ../static/style.css
+      
+  body
+    nav#navbar
+        ul
+          div#logo
+            img(src="../static/img/1.png")
+            | OBA
+          li #[a Home]
+          li #[a About]
+          li #[a Services]
+          li #[a Class Information]
+          li #[a Contact Us]
+
+    section#introSection
+      div
+        | Welcome to the Norwegian Ballet Academy
+      div#small
+        | Live for Ballet
+
+    section#missionSection
+      h2 Our Mission
+      div.card
+        h3 Flexible Dancing Styles
+        div.card-box
+          div.card-img
+            img(src="../static/img/2.png")
+
+          div.card-content
+            p Dancing Styles according to the different body shapes and actions.
+      div.card
+        h3 Professional Ballet Training
+        div.card-box
+          div.card-img
+            img(src="../static/img/3.png")
+
+          div.card-content
+            p Professional Dancing teachers from the UK, Sweden, Scotland, Iceland and Greenland
+      div.card
+        h3 International Call
+        div.card-box
+          div.card-img
+            img(src="../static/img/4.jpg")
+
+          div.card-content
+            p International Norway team call. 90% Student Acceptance rate from OBA.
+
+
+    section#sponsorSection
+      h2 Sponsors
+      div#sponsors
+        img(src="../static/img/logo1.png", alt="Sponsor" class="spImage")
+        img(src="../static/img/logo2.png", alt="Sponsor" class="spImage")
+        img(src="../static/img/logo3.png", alt="Sponsor" class="spImage")
+        img(src="../static/img/logo4.png", alt="Sponsor" class="spImage")
+
+    footer#footer
+      | 2020 Copyright © Ansh Dholakia | All rights reserved
+
+    script
+      include ../static/index.js
